@@ -91,9 +91,8 @@ img {
 }
 
 .button:hover {
-  background-color: rgba(252, 252, 252, 0.4);
-  outline: 4px solid var(--basic-extra-light);
-  box-shadow: var(--shadow-small-additional);
+  background-color: #ffffff;
+  outline: 1px solid #ffffff;
 }
 
 .button:active {
