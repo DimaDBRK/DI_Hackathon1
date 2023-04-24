@@ -195,20 +195,22 @@ img {
   line-height: 24px;
 }
 
-/* Navbar */
+/* Header & Footer */
 
 .header {
-
   background-color: #000000;
 }
 
-.header-wrapper {
+.header-wrapper,
+.footer-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 36px 0;
 }
+
+/* Navbar */
 
 .nav-list {
   display: flex;
@@ -234,8 +236,66 @@ img {
 
 .nav-link:hover {
   opacity: 0.6;
+  transition: .3s ease-in-out;
 }
 
 .nav-link:active {
   opacity: 0.3;
+}
+
+/* Hero Section */
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  min-height: 720px;
+  padding: 10px 20px;
+  padding-bottom: 40px;
+  background-image: url("images/macbook.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top -50px center;
+}
+
+.hero-section-wrapper {
+  max-width: 50%;
+}
+
+.hero-section-header {
+  padding: 0;
+  margin: 0;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+/* Social list */
+
+.social-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-link {
+  padding: 20px 10px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
 }
