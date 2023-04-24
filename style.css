@@ -274,11 +274,35 @@ img {
   text-transform: uppercase;
 }
 
+/* Project mission */
 
+.about-us {
+  padding: 50px 0px;
+}
 
+.goal-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
 
+.goal-item {
+  max-width: 48%;
+  padding: 25px 2px;
+}
 
+.goal-item-wrapper {
+  padding-left: 92px;
+}
 
+.goal-title {
+  margin: 0;
+}
+
+.goal-text {
+  margin: 0;
+}
 
 /* Social list */
 
