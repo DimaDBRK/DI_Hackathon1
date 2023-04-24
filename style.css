@@ -210,6 +210,20 @@ img {
   padding: 36px 0;
 }
 
+/* Logo */
+
+.logo-text {
+  padding: 0;
+  margin: 0;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
 /* Navbar */
 
 .nav-list {
@@ -298,11 +312,42 @@ img {
 
 .goal-title {
   margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252b42;
 }
 
 .goal-text {
   margin: 0;
 }
+
+/* Educational courses */
+
+.educational-courses {
+  padding: 50px 0;
+}
+
+.bootcamps-title {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #131726;
+  text-transform: uppercase;
+}
+
+.bootcamp-list,
+.course-list {
+  list-style-type: none;
+}
+
+
 
 /* Social list */
 
