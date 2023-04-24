@@ -19,9 +19,9 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-  color: #252b42;
+  font-size: 16px;
+  line-height: 26px;
+  color: #737373;
   background-color: #ffffff;
 }
 
@@ -44,44 +44,43 @@ img {
 /* Containers */
 
 .container {
-  width: 1250px;
-  padding: 0 40px;
+  width: 95%;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
 /* Page Layouts */
 
-.main-index,
-.main-catalog {
+.main-index{
   flex-grow: 1;
-}
-
-.main-catalog {
-  padding-top: 29px;
 }
 
 /* ELEMENTS */
 
-/* Buttons – Common Styles */
+/* Buttons */
 
-.button,
-.button-secondary,
-.button-third,
-.button-nav,
-.button-menu {
-  margin-top: auto;
-  display: inline-block;
+.button {
+  all: unset;
   position: relative;
-  border: none;
-  text-align: center;
-  text-decoration: none;
-  font-family: inherit;
-  color: inherit;
-  box-shadow: var(--shadow-small);
-  background-color: transparent;
-  cursor: pointer;
-  outline: none;
-  outline-offset: 0;
+  display: flex;
+  border: 1px solid #23a6f0;
+  font-size: 14px;
+  line-height: 200%;
+  color: #23a6f0;
+  padding: 15px 30px;
+  padding-right: 49px;
+}
+
+.button::before {
+  position: absolute;
+  right: 30px;
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid #23a6f0;
+  border-right: 2px solid #23a6f0;
+  transform: rotate(45deg);
+  content: "";
 }
 
 /* Primary buttons */
