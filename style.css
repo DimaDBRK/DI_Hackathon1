@@ -643,3 +643,71 @@ img {
   width: 37px;
   background-image: url("images/icons/linkedin.svg");
 }
+
+/* Form */
+.center {
+  text-align: center;
+}
+
+.contacts-form {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(123, 186, 244);
+  border-radius: 15px;
+  padding: 1.8em;
+  margin: 0 1em 1em 1em;
+}
+
+.data-input {
+  
+  flex: 1; 
+  margin: 1.5em;
+}
+
+.data-input input {
+  width: 100%;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.data2-input {
+  flex: 1; 
+  margin: 1.5em;
+}
+
+.data2-input select {
+  width: 100%;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.message-box {
+  width: 100%;
+  height: 8em;
+}
+
+.form-element {
+padding: 0.5em;
+}
+
+.input-comments {
+  font-size: 10px;
+}
+
+#phone-comments {
+  padding: 0;
+  margin-top: 0;
+}
+
+.buttons {
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+
+.button-form {
+  margin: 1em auto;
+}
+
+
