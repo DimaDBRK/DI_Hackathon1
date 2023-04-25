@@ -524,6 +524,12 @@ img {
   justify-content: center;
 }
 
+.video-player {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 560/315;
+}
+
 .educational-course-title,
 .video-title {
   padding: 0;
