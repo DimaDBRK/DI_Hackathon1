@@ -7,3 +7,10 @@ navToggle.addEventListener('click', function () {
   navMain.classList.toggle('navbar-opened');
   navToggle.classList.toggle('main-nav-toggle-opened');
 });
+
+const selector = document.getElementById("Country_search");
+if (selector) {
+  $(function () {
+    $("#Country_search").select2();
+  });
+}
