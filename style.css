@@ -96,6 +96,7 @@ img {
   color: #23a6f0;
   padding: 15px 30px;
   padding-right: 49px;
+  cursor: pointer;
 }
 
 .button::before {
@@ -355,7 +356,7 @@ img {
   padding: 50px 0;
 }
 
-.bootcamps-title {
+.educational-course-title {
   padding: 0;
   margin: 0;
   margin-bottom: 30px;
@@ -370,12 +371,13 @@ img {
 
 .bootcamp-list,
 .course-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 55px;
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  list-style-type: none;
 }
 
 .bootcamp-card-wrapper,
