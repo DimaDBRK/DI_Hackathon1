@@ -250,6 +250,15 @@ img {
 
 /* Logo */
 
+.logo {
+  text-decoration: none;
+  transition: all .5s;
+}
+
+.logo:hover {
+  transform: scale(1.4) rotate(-5deg);
+}
+
 .logo-text {
   padding: 0;
   margin: 0;
@@ -422,6 +431,28 @@ img {
     font-size: 30px;
     line-height: 40px;
   }
+}
+
+/* Interview tips */
+
+.statistics-section {
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 80vh;
+  padding-left: 108px;
+  background-image: url("images/divider.svg");
+  background-position: center bottom;
+  background-size: 130%;
+}
+
+@media (max-width: 768px) {
+  .statistics-section {
+    background-size: auto;
+  }
+}
+
+.statistics-header {
+  text-align: left;
 }
 
 /* Project mission */
@@ -659,8 +690,8 @@ img {
 }
 
 .data-input {
-  
-  flex: 1; 
+
+  flex: 1;
   margin: 1.5em;
 }
 
@@ -671,7 +702,7 @@ img {
 }
 
 .data2-input {
-  flex: 1; 
+  flex: 1;
   margin: 1.5em;
 }
 
