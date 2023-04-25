@@ -440,6 +440,10 @@ img {
   list-style-type: none;
 }
 
+.statistic-facts-item {
+  max-width: 275px;
+}
+
 /* Interview tips */
 
 .statistics-section {
@@ -465,7 +469,9 @@ img {
 }
 
 .statistic-facts-header {
+  max-width: 135px;
   padding: 0;
+  padding-top: 40px;
   margin: 0;
   margin-bottom: 10px;
   font-weight: 700;
@@ -478,6 +484,7 @@ img {
 }
 
 .statistic-facts-text {
+  max-width: 135px;
   padding: 0;
   margin: 0;
   font-weight: 400;
