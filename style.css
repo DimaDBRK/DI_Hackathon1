@@ -509,13 +509,23 @@ img {
   margin: 0;
 }
 
-/* Educational courses */
+/* Educational courses and Video */
 
 .educational-courses {
   padding-bottom: 50px;
 }
 
-.educational-course-title {
+.video {
+  padding: 50px 0;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+
+.educational-course-title,
+.video-title {
   padding: 0;
   margin: 0;
   margin-bottom: 30px;
