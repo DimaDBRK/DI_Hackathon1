@@ -311,6 +311,24 @@ img {
                     url("images/macbook.jpg");
 }
 
+@media (max-width: 768px) {
+  .hero-section {
+    min-height: 570px;
+    background-position: center bottom, top -80px center;
+    background-size: auto, 110%;
+  }
+}
+
+@media (max-width: 425px) {
+  .hero-section {
+    min-height: 350px;
+    padding: 0 10px;
+    padding-bottom: 30px;
+    background-position: center bottom, top -10px center;
+    background-size: auto, 120%;
+  }
+}
+
 .hero-section-wrapper {
   max-width: 50%;
   max-width: 530px;
@@ -328,6 +346,14 @@ img {
   text-transform: uppercase;
 }
 
+@media (max-width: 425px) {
+  .hero-section-header {
+    max-width: 320px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
 /* Project mission */
 
 .about-us {
@@ -335,15 +361,22 @@ img {
 }
 
 .goal-list {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 45px;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
+@media (max-width: 768px) {
+  .goal-list {
+    grid-template-columns: 1fr;
+  }
+}
+
 .goal-item,
 .aim-item {
-  max-width: 48%;
   padding: 25px 2px;
   background-repeat: no-repeat;
   background-position: left center;
@@ -378,7 +411,7 @@ img {
 /* Educational courses */
 
 .educational-courses {
-  padding: 50px 0;
+  padding-bottom: 50px;
 }
 
 .educational-course-title {
@@ -405,11 +438,30 @@ img {
   list-style-type: none;
 }
 
+@media (max-width: 768px) {
+  .bootcamp-list,
+  .course-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 425px) {
+  .bootcamp-list,
+  .course-list {
+    grid-template-columns: 1fr;
+  }
+}
+
 .bootcamp-card-wrapper,
 .course-card-wrapper {
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+
+.bootcamp-card-title,
+.course-card-title {
+  color: #252b42;
 }
 
 .bootcamp-card-link,
@@ -426,8 +478,42 @@ img {
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+  }
+}
+
 .footer-nav-link {
   color: #737373;
+}
+
+/* Year */
+
+@media (max-width: 768px) {
+  .year {
+    margin-bottom: 30px;
+  }
+}
+
+/* Footer Navbar */
+
+@media (max-width: 768px) {
+  .footer-nav-list {
+    margin-bottom: 30px;
+  }
+}
+
+/* Footer Navbar */
+
+@media (max-width: 425px) {
+  .footer-nav-list {
+    flex-direction: column;
+  }
+
+  .footer-nav-list > li {
+    margin-bottom: 10px;
+  }
 }
 
 /* Social list */
@@ -445,6 +531,12 @@ img {
   list-style-type: none;
 }
 
+@media (max-width: 768px) {
+  .social-list {
+    margin-bottom: 10px;
+  }
+}
+
 .social-list > li {
   width: 35px;
   height: 35px;
@@ -459,6 +551,14 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.social-link:hover {
+  opacity: 0.6;
+}
+
+.social-link:active {
+  opacity: 0.3;
 }
 
 .facebook-link {
