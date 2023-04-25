@@ -375,7 +375,8 @@ img {
 
 /* Hero Section */
 
-.hero-section {
+.hero-section,
+.statistics-section {
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -408,12 +409,14 @@ img {
   }
 }
 
-.hero-section-wrapper {
+.hero-section-wrapper,
+.statistics-section-wrapper {
   max-width: 50%;
   max-width: 530px;
 }
 
-.hero-section-header {
+.hero-section-header,
+.statistics-section-header {
   padding: 0;
   margin: 0;
   font-weight: 800;
@@ -433,11 +436,17 @@ img {
   }
 }
 
+.statistic-facts {
+  list-style-type: none;
+}
+
 /* Interview tips */
 
 .statistics-section {
-  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
+  width: 100%;
   min-height: 80vh;
   padding-left: 108px;
   background-image: url("images/divider.svg");
@@ -451,7 +460,7 @@ img {
   }
 }
 
-.statistics-header {
+.statistics-section-header {
   text-align: left;
 }
 
@@ -526,6 +535,7 @@ img {
 
 .video-player {
   width: 100%;
+  max-width: 1000px;
   height: auto;
   aspect-ratio: 560/315;
 }
