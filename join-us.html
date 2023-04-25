@@ -1,60 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<!-- CSS file ------------------------------------>
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-    <script>
-        $(function(){
-        $("#Country_search").select2();
-        }); 
-    </script>
-  </head>
-  <body>
-   
-    
-    <h2 class = "titel center" id = "">Contact Us</h2>
-    <div class = "main_text center" id = "">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Font HTML import ------------------------------------>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS file ------------------------------------>
+  <link rel="stylesheet" href="style.css">
+  <title>An ultimate Guide to the israeli High-Tech Industry for Olims</title>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  <script>
+    $(function () {
+      $("#Country_search").select2();
+    });
+  </script>
+  <!-- Add icon link ------------------------------------>
+  <link rel="icon" href="" type="image/x-icon">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-wrapper">
+      <a class="logo">
+        <span class="logo-text">Bridge</span>
+      </a>
+      <button class="main-nav-toggle" type="button">
+        <span class="main-nav-circles-row main-nav-circles-row--upper">
+          <span class="main-nav-circle"></span>
+          <span class="main-nav-circle"></span>
+          <span class="main-nav-circle"></span>
+        </span>
+        <span class="main-nav-circles-row main-nav-circles-row--middle">
+          <span class="main-nav-circle"></span>
+          <span class="main-nav-circle"></span>
+          <span class="main-nav-circle"></span>
+        </span>
+        <span class="main-nav-circles-row main-nav-circles-row--bottom">
+          <span class="main-nav-circle"></span>
+          <span class="main-nav-circle"></span>
+          <span class="main-nav-circle"></span>
+        </span>
+      <span class="visually-hidden">Toggle menu.</span>
+    </button>
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li>
+            <a class="nav-link" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a class="nav-link" href="info.html">Interview tips</a>
+          </li>
+          <li>
+            <a class="nav-link" href="join-us.html">Join us</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h2 class="titel center" id="">Contact Us</h2>
+    <div class="main_text center" id="">
       <p>Please fill out the form to reach out to our team. We look forward to hearing from you!</p>
     </div>
-<!-- FORM ------------------------------------------------------------------->
-    <form class = "" action="#" method = "POST ">
-<!-- Firstname, Last Name  -------------------------------------------------->
-      <div class = "contacts-form">   
-        <div class = "data-input">
-          <div class =>
+    <!-- FORM ------------------------------------------------------------------->
+    <form class="" action="#" method="POST ">
+      <!-- Firstname, Last Name  -------------------------------------------------->
+      <div class="contacts-form">
+        <div class="data-input">
+          <div class=>
             <label for="fname">Name *</label>
-            <input type="text" placeholder= "First" id="firstname" name="firstname" required />
+            <input type="text" placeholder="First" id="firstname" name="firstname" required />
           </div>
-        
-          <div class = "">
+
+          <div class="">
             <label for="lname">Last Name *</label>
-            <input type="text" placeholder= "Last" id="lastname" name="lastname" required />
+            <input type="text" placeholder="Last" id="lastname" name="lastname" required />
           </div>
-          
-          <div class = "">
+
+          <div class="">
             <label for="email">Email *</label>
             <input type="email" id="email" name="email" required />
           </div>
-          
+
           <div>
             <label for="phone">Phone</label>
-            <input type="tel" id="phone_1" name="phone" placeholder="Your phone"/>
+            <input type="tel" id="phone_1" name="phone" placeholder="Your phone" />
           </div>
         </div>
-     
-        <div class = "data1-input">
-          <div class = "" id = "">
+
+        <div class="data1-input">
+          <div class="" id="">
             <span>Country</span>
           </div>
           <div>
-            <select name="country" value = "Country" id = "Country_search">
+            <select name="country" value="Country" id="Country_search">
               <option value="">Select a country...</option>
               <option value="Israel">Israel</option>
               <option value="Afghanistan">Afghanistan</option>
@@ -185,7 +233,8 @@
               <option value="Lithuania">Lithuania</option>
               <option value="Luxembourg">Luxembourg</option>
               <option value="Macao">Macao</option>
-              <option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic of</option>
+              <option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic of
+              </option>
               <option value="Madagascar">Madagascar</option>
               <option value="Malawi">Malawi</option>
               <option value="Malaysia">Malaysia</option>
@@ -258,7 +307,8 @@
               <option value="Solomon Islands">Solomon Islands</option>
               <option value="Somalia">Somalia</option>
               <option value="South Africa">South Africa</option>
-              <option value="South Georgia and The South Sandwich Islands">South Georgia and The South Sandwich Islands</option>
+              <option value="South Georgia and The South Sandwich Islands">South Georgia and The South Sandwich Islands
+              </option>
               <option value="Spain">Spain</option>
               <option value="Sri Lanka">Sri Lanka</option>
               <option value="Sudan">Sudan</option>
@@ -299,48 +349,83 @@
               <option value="Western Sahara">Western Sahara</option>
               <option value="Yemen">Yemen</option>
               <option value="Zambia">Zambia</option>
-              <option value="Zimbabwe">Zimbabwe</option>     
+              <option value="Zimbabwe">Zimbabwe</option>
             </select>
           </div>
-      
-          <div class = "" id = "">
+
+          <div class="" id="">
             <span>Language</span>
             <div>
-              <input type="radio" name="language" value="English" checked/>English<br />
+              <input type="radio" name="language" value="English" checked />English<br />
               <input type="radio" name="language" value="Hebrew" />Hebrew<br />
               <input type="radio" name="language" value="Russian" />Russian<br />
             </div>
           </div>
-          
-          <div class = "form-element">
+
+          <div class="form-element">
             <label for="message">Message</label>
-            <textarea class ="message-box" id="message" name="message"/></textarea>
+            <textarea class="message-box" id="message" name="message" /></textarea>
           </div>
-        
-        </div>  
-                
+
+        </div>
+
       </div>
 
- <!-- Mailing list checkbox -->     
-         
-      <div class ="input-comments form-elemet center">
-          <input type="checkbox" name="exp1" value="yes" checked/>I agree to be added to email list and receive updates, the monthly newsletter, and other email marketing communications.
-      </div> 
-      
-      
-<!-- Submit or Reset  -->
-      <div class = "buttons">
-        <div class = "button-form">
-          <input class = "button" type="submit" value="Send" /><br />
+      <!-- Mailing list checkbox -->
+
+      <div class="input-comments form-elemet center">
+        <input type="checkbox" name="exp1" value="yes" checked />I agree to be added to email list and receive updates,
+        the monthly newsletter, and other email marketing communications.
+      </div>
+
+
+      <!-- Submit or Reset  -->
+      <div class="buttons">
+        <div class="button-form">
+          <input class="button" type="submit" value="Send" /><br />
         </div>
-        <div class = "button-form">
-          <input class = "button" type="reset" value="Reset" />
+        <div class="button-form">
+          <input class="button" type="reset" value="Reset" />
         </div>
       </div>
-    
+
     </form>
     <br />
-  </body>
+  </main>
+  <footer class="main-footer">
+    <div class="container footer-container">
+      <span class="year">2023 year | שנה 5784</span>
+      <ul class="nav-list footer-nav-list">
+        <li>
+          <a class="nav-link footer-nav-link" aria-current="page">Home</a>
+        </li>
+        <li>
+          <a class="nav-link footer-nav-link" href="info.html">Interview tips</a>
+        </li>
+        <li>
+          <a class="nav-link footer-nav-link" href="join-us.html">Join us</a>
+        </li>
+      </ul>
+      <ul class="social-list">
+        <li>
+          <a class="social-link facebook-link" href="https://www.facebook.com/developers.institute/">
+            <span class="visually-hidden">Facebook</span>
+          </a>
+        </li>
+        <li>
+          <a class="social-link instagram-link" href="https://www.instagram.com/developers.institute/?hl=en">
+            <span class="visually-hidden">Instagram</span>
+          </a>
+        </li>
+        <li>
+          <a class="social-link linkedin-link" href="https://www.instagram.com/developers.institute/?hl=en">
+            <span class="visually-hidden">Linkedin</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+
 </html>
-
-
