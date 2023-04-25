@@ -436,19 +436,27 @@ img {
   }
 }
 
+/* Interview tips */
+
 .statistic-facts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   list-style-type: none;
+}
+
+.statistic-facts li:nth-child(2) {
+  align-self: flex-end;
 }
 
 .statistic-facts-item {
   max-width: 275px;
 }
 
-/* Interview tips */
-
 .statistics-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 100px;
   align-items: center;
   width: 100%;
   min-height: 80vh;
