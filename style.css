@@ -62,7 +62,8 @@ img {
 .button {
   all: unset;
   position: relative;
-  display: flex;
+  display: inline-flex;
+  width: fit-content;
   border: 1px solid #23a6f0;
   border-radius: 37px;
   font-size: 14px;
@@ -345,9 +346,24 @@ img {
 .bootcamp-list,
 .course-list {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 55px;
 }
 
+.bootcamp-card-wrapper,
+.course-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
 
+.bootcamp-card-link,
+.course-card-link {
+  margin-top: auto;
+}
 
 /* Social list */
 
