@@ -289,17 +289,20 @@ img {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  min-height: 720px;
+  min-height: 750px;
   padding: 10px 20px;
-  padding-bottom: 40px;
-  background-image: url("images/macbook.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top -50px center;
+  padding-bottom: 60px;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center bottom, top -130px center;
+  background-size: 130%, cover;
+  background-color: #000000;
+  background-image: url("images/divider.svg"),
+                    url("images/macbook.jpg");
 }
 
 .hero-section-wrapper {
   max-width: 50%;
+  max-width: 530px;
 }
 
 .hero-section-header {
