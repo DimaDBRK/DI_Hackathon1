@@ -341,9 +341,21 @@ img {
   list-style-type: none;
 }
 
-.goal-item {
+.goal-item,
+.aim-item {
   max-width: 48%;
   padding: 25px 2px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 72px 72px;
+}
+
+.goal-item {
+  background-image: url("images/icons/goal.svg");
+}
+
+.aim-item {
+  background-image: url("images/icons/aim.svg");
 }
 
 .goal-item-wrapper {
