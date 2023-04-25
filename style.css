@@ -35,7 +35,7 @@ body {
   flex-direction: column;
   background-color: #cb2b2b;
   align-items: left;
-  
+
 }
 .conteiner_small {
   display: flex;
@@ -409,4 +409,3 @@ img {
   color: #ffffff;
   text-decoration: none;
 }
-
