@@ -450,6 +450,8 @@ img {
 }
 
 .statistic-facts-item {
+  position: relative;
+  padding-top: 80px;
   max-width: 275px;
 }
 
@@ -490,6 +492,25 @@ img {
   color: #ffffff;
   text-transform: uppercase;
 }
+
+.icon-rise::before,
+.icon-dollar::before,
+.icon-employee::before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 49px;
+  height: 49px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  content: "";
+}
+
+.icon-rise::before {
+  background-image: url("images/icons/rise.svg")
+}
+
 
 .statistic-facts-text {
   max-width: 135px;
