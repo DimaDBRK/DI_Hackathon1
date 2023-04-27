@@ -269,6 +269,15 @@ img {
   letter-spacing: 0.2px;
   color: #ffffff;
   text-transform: uppercase;
+  background: hsla(0, 0%, 100%, 1);
+  background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 100%, 1) 5%, hsla(209, 100%, 36%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 100%, 1) 5%, hsla(209, 100%, 36%, 1) 100%);
+  background: -webkit-linear-gradient(0deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 100%, 1) 5%, hsla(209, 100%, 36%, 1) 100%);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 
 /* Navbar */
