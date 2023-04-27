@@ -721,10 +721,9 @@ img {
 }
 
 .tr-logo::before {
-  background-position-x: -19px;
-  background-position-y: -15px;
+  background-position-y: 10%;
   background-image: url("images/logo/tel-ran.png");
-  background-size: 200%;
+  background-size: 130%;
   border: 1px solid #000000;
 }
 
@@ -733,6 +732,27 @@ img {
   background-position-y: -15px;
   background-image: url("images/logo/itworks.png");
   background-size: 200%;
+  border: 1px solid #000000;
+}
+
+.gvahim-logo::before {
+  background-position-x: -19px;
+  background-position-y: -15px;
+  background-image: url("images/logo/gvahim.png");
+  background-size: 200%;
+  border: 1px solid #000000;
+}
+
+.yo-logo::before {
+  background-position-y: -8px;
+  background-image: url("images/logo/yad-lolim.png");
+  background-size: 160%;
+  border: 1px solid #000000;
+}
+
+.mecoh-logo::before {
+  background-image: url("images/logo/maof.png");
+  background-size: 130%;
   border: 1px solid #000000;
 }
 
