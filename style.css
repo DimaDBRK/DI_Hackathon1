@@ -447,6 +447,15 @@ img {
   }
 }
 
+.statistic-section-link {
+  all: inherit;
+  cursor: pointer;
+}
+
+.statistic-section-link:hover {
+  color: #b49bf7;
+}
+
 /* Interview tips */
 
 .statistic-facts {
@@ -946,12 +955,12 @@ img {
   margin-bottom: 1em;
 }
 
-.data2-input {
+.data1-input {
   flex: 1;
   margin: 1.5em;
 }
 
-.data2-input select {
+.data1-input select {
   width: 100%;
   padding: 1em;
   margin-bottom: 1em;
@@ -986,4 +995,8 @@ justify-content: center;
   margin: 1em auto;
 }
 
-
+@media (max-width: 768px) {
+  .contacts-form, .buttons {
+    flex-direction: column;
+  }
+}
