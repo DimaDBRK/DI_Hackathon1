@@ -276,6 +276,7 @@ img {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-clip: text;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
