@@ -701,14 +701,14 @@ img {
   list-style-type: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .bootcamp-list,
   .course-list {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
   .bootcamp-list,
   .course-list {
     grid-template-columns: 1fr;
