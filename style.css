@@ -639,6 +639,22 @@ img {
   }
 }
 
+.bootcamp-item,
+.course-item {
+  padding: 35px 40px;
+  -webkit-transition:  all .6s ease-out;
+  transition: all .6s ease-out;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.bootcamp-item:hover,
+.course-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+ -webkit-transition:  all .6s ease-in;
+ transition:  all .6s ease-in;
+}
+
 .bootcamp-card-wrapper,
 .course-card-wrapper {
   display: flex;
@@ -679,14 +695,45 @@ img {
   background-position-x: 0;
   background-position-y: 2px;
   background-color: #000000;
-  background-image: url("images/logo/DI.png");
+  background-image: url("images/logo/di.png");
 }
 
-.di-logo::before {
-  background-position-x: 0;
-  background-position-y: 2px;
+.il-logo::before {
+  background-position-x: -2px;
+  background-position-y: 0;
   background-color: #000000;
-  background-image: url("images/logo/DI.png");
+  background-image: url("images/logo/infinity.png");
+}
+
+.itc-logo::before {
+  background-position-x: -2px;
+  background-position-y: 2px;
+  background-image: url("images/logo/itc.png");
+  border: 1px solid #000000;
+}
+
+.practicum-logo::before {
+  background-position-x: -19px;
+  background-position-y: -15px;
+  background-image: url("images/logo/practicum.png");
+  background-size: 200%;
+  border: 1px solid #000000;
+}
+
+.tr-logo::before {
+  background-position-x: -19px;
+  background-position-y: -15px;
+  background-image: url("images/logo/tel-ran.png");
+  background-size: 200%;
+  border: 1px solid #000000;
+}
+
+.itw-logo::before {
+  background-position-x: -19px;
+  background-position-y: -15px;
+  background-image: url("images/logo/itworks.png");
+  background-size: 200%;
+  border: 1px solid #000000;
 }
 
 .bootcamp-card-link,
